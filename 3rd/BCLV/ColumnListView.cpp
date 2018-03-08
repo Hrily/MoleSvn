@@ -64,7 +64,7 @@ All rights reserved.
 
 #include "ObjectList.h"
 #include "ColumnListView.h"
-#include "ColorTools.h"
+
 /*
 #ifndef _ARCHIVE_DEFS_H
 #include <archive_defs.h>
