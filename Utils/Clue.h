@@ -222,7 +222,7 @@ struct FingerPrint
 
 #ifdef _OS_H
 	void TraceObject (ClueCategory, ClueEvent, uint32, const char *, const char *, thread_state, const char * inDescription = NULL);
-	//void TraceObject (ClueCategory, ClueEvent, uint32, const char *, const char *, cpu_type, const char * inDescription = NULL);
+	void TraceObject (ClueCategory, ClueEvent, uint32, const char *, const char *, cpu_type, const char * inDescription = NULL);
 #endif
 
 #ifdef _PROPERTY_INFO_H
@@ -1117,7 +1117,7 @@ struct FingerPrint
 	void TraceObject (ClueCategory, ClueEvent, uint32, const char *, const char *, thread_info *, const char * inDescription = NULL);
 	void TraceObject (ClueCategory, ClueEvent, uint32, const char *, const char *, team_usage_info *, const char * inDescription = NULL);
 	void TraceObject (ClueCategory, ClueEvent, uint32, const char *, const char *, team_info *, const char * inDescription = NULL);
-// 	void TraceObject (ClueCategory, ClueEvent, uint32, const char *, const char *, platform_type *, const char * inDescription = NULL);
+	void TraceObject (ClueCategory, ClueEvent, uint32, const char *, const char *, platform_type *, const char * inDescription = NULL);
 	void TraceObject (ClueCategory, ClueEvent, uint32, const char *, const char *, cpu_info *, const char * inDescription = NULL);
 	void TraceObject (ClueCategory, ClueEvent, uint32, const char *, const char *, system_info *, const char * inDescription = NULL);
 #endif

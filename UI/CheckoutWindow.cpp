@@ -7,13 +7,17 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include "CheckoutWindow.h"
+
+#include <stdlib.h>	// atoi
+
 #include "../MoleSvnAddon.h"
 #include "MessageCommands.h"
 #include "ResultsWindow.h"
-
-#include <stdlib.h>
+//#define BOOST_NO_STRINGSTREAM
+//#include <boost/lexical_cast.hpp>
 
 using namespace std;
+//using namespace boost;
 
 #define CHECKOUT_OK             	'C_OK'
 #define CHECKOUT_CANCEL         	'CCAN'
